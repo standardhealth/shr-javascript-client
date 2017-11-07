@@ -17,7 +17,7 @@ This implementation is used in Flux Notes, which is part of the Standard Health 
 ```
 // Synchronous call
 // TODO: This should be replaced with the above code, which was generated and is async
-let xmlHttp = new XMLHttpRequest();
+var xmlHttp = new XMLHttpRequest();
 xmlHttp.open("GET", 'http://localhost:3001/api/patient/-1', false);
 xmlHttp.send(null);
 return xmlHttp.responseText;
