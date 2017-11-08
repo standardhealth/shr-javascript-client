@@ -1,6 +1,6 @@
 {
   "name": "shr_rest_client",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "SHR_REST_Client",
   "license": "Unlicense",
   "main": "src/index.js",
@@ -11,8 +11,7 @@
     "fs": false
   },
   "dependencies": {
-    "superagent": "3.5.2",
-    "xmlhttprequest": "^1.8.0"
+    "superagent": "3.5.2"
   },
   "devDependencies": {
     "mocha": "~2.3.4",

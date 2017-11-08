@@ -12,7 +12,6 @@
  * Do not edit the class manually.
  *
  */
-var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 (function(root, factory) {
   // if (typeof define === 'function' && define.amd) {
   //   // AMD. Register as an anonymous module.

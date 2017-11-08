@@ -24,8 +24,3 @@ xmlHttp.open("GET", 'http://localhost:3001/api/patient/-1', false);
 xmlHttp.send(null);
 return xmlHttp.responseText;
 ```
-
-In order for this to work in Node, you will also need to add the following line at the top of DefaultApi.js:
-```
-var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
-```
