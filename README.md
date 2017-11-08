@@ -7,6 +7,8 @@ Code in the `javascript-client` directory was generated using the Swagger Online
 If an updated swagger.json or swagger.yaml file is defined, a new JavaScript client implementation will need to be generated. It can be generated using the Swagger Online Editor or other Swagger tools. The new JavaScript implementation should replace the `javascript-client` directory.
 
 ## Update NPM Package
+The `javascript-client` library is published on NPM as a package called `shr_rest_client`. This allows it to be saved on other projects and used to make REST API calls.
+
 When changes are made to the `javascript-client` library, the updates should always be updated to the published NPM Package. Instructions for updating an NPM Package can be found [here](https://docs.npmjs.com/getting-started/publishing-npm-packages#updating-the-package);
 
 ## Manual Edits to Generated Code
