@@ -93,8 +93,9 @@
       
       // Synchronous call
       // TODO: This should be replaced with the above code, which was generated and is async
+      var url = 'http://localhost:3001/api/patient/' + shrId;
       var xmlHttp = new XMLHttpRequest();
-      xmlHttp.open("GET", 'http://localhost:3001/api/patient/-1', false);
+      xmlHttp.open("GET", url, false);
       xmlHttp.send(null);
       return xmlHttp.responseText;
     }
