@@ -118,6 +118,8 @@ All URIs are relative to *http://localhost:3001/api*
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
 *ShrRestClient.DefaultApi* | [**getPatientById**](docs/DefaultApi.md#getPatientById) | **GET** /patient/{shrId} | Find patient by SHR ID
+*ShrRestClient.DefaultApi* | [**patientOptions**](docs/DefaultApi.md#patientOptions) | **OPTIONS** /patient | 
+*ShrRestClient.DefaultApi* | [**updatePatientRecord**](docs/DefaultApi.md#updatePatientRecord) | **PUT** /patient | Update a single patient record
 
 
 ## Documentation for Models
